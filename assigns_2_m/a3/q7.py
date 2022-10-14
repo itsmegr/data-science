@@ -17,11 +17,9 @@ print("\n\nc. Head of the dataframe: ")
 print(df.head())
 
 # describe the dataframe
-print("\n\nd. Describe the dataframe: ")
+print("\n\nd. Dataframe description:")
 print(df.describe())
 
 # Display a random sample of the dataframe
 print("\n\ne. Display a random sample of the dataframe: ")
 print(df.sample(6))
-
-
