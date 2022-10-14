@@ -8,7 +8,7 @@ a = np.random.randint(1,10,size=(1,n))
 b = np.random.randint(1,10,size=(1,n))
 
 # print the lists a and b
-print("Randomly generated lists")
+print("Randomly generated lists:")
 print("List a: ", a)
 print("List b: ", b)
 
