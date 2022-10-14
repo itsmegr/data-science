@@ -25,7 +25,7 @@ print("\n\nd. First two days of the week and the number of attendees: ")
 print(df.head(2))
 
 # plot the dataframe
-print("\n\ne. Plotting the dataframe....")
+print("\n\ne. Plotting the dataframe...")
 df.plot(kind='bar', x='Days', y='Attendance')
 plt.title('Day vs Attendance plot')
 plt.show()
